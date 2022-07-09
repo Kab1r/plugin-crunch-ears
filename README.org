@@ -1,0 +1,22 @@
+#+AUTHOR: Kabir Kwatra <kabir@kwatra.me>
+
+** <(⋯)
+/Bash style process substitution for fish/
+
+* Install
+**** [[https://www.github.com/oh-my-fish/oh-my-fish][Oh My Fish]]
+#+begin_src shell
+omf install Kab1r/plugin-crunch-ears
+#+end_src
+**** [[https://www.github.com/fisher/fisher][Fisher]]
+#+begin_src shell
+fisher install Kab1r/plugin-crunch-ears
+#+end_src
+
+* Usage
+When =<(= is entered into the command line, it will be replaced by =( | psub)= with your cursor placed in between the first opening parentheses and the pipe character.
+
+* License
+[[./LICENSE.org][MPL]] © [[https://github.com/Kab1r][Kabir Kwatra]]
+
+Inspired by [[https://github.com/oh-my-fish/plugin-bang-bang][!! for Oh My Fish]]
